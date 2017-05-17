@@ -54,7 +54,9 @@ nav {
     margin: 1.4em 1em 0 0;
     background: none;
 }
-
+nav li {
+  background: #27AE60;
+}
 nav ul a {
     background: #27AE60;
     color: #ffffff;
@@ -71,10 +73,10 @@ nav ul a:hover {
 }
 
 .signup {
-    background-color: white;
+    background: #fff;
     border-radius: 2em;
     color: #27AE60;
-    float: left;
+    backgou
     font-weight: bold;
 }
 /* JUMBOTRON */
