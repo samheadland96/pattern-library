@@ -169,3 +169,16 @@ footer {
     color: #fff;
     transition: 1.0s ease-in-out;
 }
+
+/* BREADCRUMBS */
+.link-tag {
+    text-align: center;
+    color:#27AE60;
+    margin: 1em;
+    font-size: 1em;
+    color: #000000;
+}
+.link-tag a {
+
+    color:#27AE60;
+}
