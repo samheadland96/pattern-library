@@ -1,0 +1,352 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Library</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="https://use.fontawesome.com/a41d14061a.js"></script>
+</head>
+
+<body>
+    <div class="row">
+
+        <div class="large-12 columns">
+            <h1>Pattern Library | Web Design for Industry</h1>
+            <p>TEXT HERE</p>
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <h3>Navigation</h3>
+            <p>The navigation helps the users navigate around the website. The colours, fonts, sizes can all be changed in the CSS.
+            <header class="top-bar">
+                <div class="top-bar-left">
+                    <img class="top-bar-logo" src="AE-logo-white.png">
+                </div>
+
+                <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+                    <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+                    <div class="title-bar-title">Menu</div>
+                </div>
+
+                <div class="top-bar-right" id="example-menu">
+                    <nav>
+
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <li><a href="#">Upload CV</a></li>
+                            <li><a href="#">Post A Job</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#" class="button signup">Sign Up / Log In</a></li>
+
+                        </ul>
+
+                    </nav>
+                </div>
+            </header>
+            <div class="large-6 columns">
+                <div class="callout">
+                  <p>HTML</p>
+                    <code>
+&lt;header class="top-bar"&gt;<br/> &lt;div class="top-bar-left"&gt;<br/> &lt;img class="top-bar-logo" src="AE-logo-white.png"&gt;<br/> &lt;/div&gt;
+                <br/> &lt;div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium"&gt;<br/> &lt;button class="menu-icon" type="button" data-toggle="example-menu"&gt;&lt;/button&gt;<br/> &lt;div class="title-bar-title"&gt;Menu&lt;/div&gt;<br/>
+                &lt;/div&gt;
+                <br/> &lt;div class="top-bar-right" id="example-menu"&gt;<br/> &lt;nav&gt;
+                <br/> &lt;ul class="dropdown menu" data-dropdown-menu&gt;<br/>
+  &lt;li&gt;&lt;a href="#">Upload CV &lt;/a&gt;&lt;/li&gt;<br/>
+&lt;li>&lt;a href="#">Post A Job&lt;/a&gt;&lt;/li&gt;<br/>
+    &lt;li>&lt;a href="#">About&lt;/a&gt;&lt;/li&gt;<br/>
+                &lt;li>&lt;a href="#" class="button signup">Sign Up / Log In&lt;/a&gt;&lt;/li&gt;<br/>
+          <br/> &lt;/ul&gt;
+          <br/> &lt;/nav&gt;
+          <br/> &lt;/div&gt;
+                <br/> &lt;/header&gt;
+
+  </code>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <div class="callout">
+                  <p>CSS</p>
+                  <code>
+                  nav { <br/>
+                      margin: 1.4em 1em 0 0;<br/>
+                      background: none;<br/>
+                  }<br/>
+                  <br/>
+
+                  nav ul a {<br/>
+                      background: #27AE60;<br/>
+                      color: #ffffff;<br/>
+                      font-weight: bold;<br/>
+                      text-transform: uppercase;<br/>
+                      font-family: "proxima-nova", sans-serif;<br/>
+                      font-style: bold;<br/>
+                      font-weight: 700;<br/>
+                  }<br/>
+<br/>
+                  nav ul a:hover {<br/>
+                      color: #ffffff;<br/>
+                      opacity: 0.7;<br/>
+                  }<br/>
+
+  </code>
+                </div>
+            </div>
+        </div>
+
+        <div class="large-12 columns">
+            <h3>Header Element</h3>
+<p>The header element sits at the top of the website just below the navigation bar and is the first thing that the user will see when arriving onto the site. Text could be added over this image by inserting it into the HTML.</p>
+            <section class="hero">
+                <img src="top-image.png">
+            </section>
+
+        </div>
+        <div class="large-6 columns">
+            <div class="callout">
+              <p>HTML</p>
+                <code>
+  &lt;section class="hero"&gt;<br/>
+    &lt;img src="top-image.png"&gt;<br/>
+  &lt;/section&gt;<br/>
+</code>
+
+            </div>
+</div>
+<div class="large-6 columns">
+    <div class="callout">
+      <p>CSS</p>
+        <code>
+
+</code>
+
+    </div>
+</div>
+
+            <div class="large-12 columns">
+                <h3>Buttons</h3>
+                <p>These are used around the whole of the website for call to actions and in forms. There are six different types of buttons for this website and can be seen below.</p>
+                <div class="large-2 columns">
+                    <p>Rounded White (Bold)</p>
+                    <a href="#" class="button bold-rounded-white">Sign Up / Log In</a>
+                </div>
+                <div class="large-2 columns">
+                    <p>Rounded Green</p>
+                    <a href="#" class="button rounded-green">Apply</a>
+                </div>
+
+                <div class="large-2 columns">
+                    <p>Rounded White (Normal)</p>
+                    <a href="#" class="button normal-rounded-white">Search</a>
+                </div>
+                <div class="large-2 columns">
+                    <p>Rounded Green Border</p>
+                    <a href="#" class="button rounded-green-border">Find Out More</a>
+                </div>
+                <div class="large-2 columns">
+                    <p>Green Border</p>
+                    <a href="#" class="button green-border">Contact</a>
+                </div>
+                <div class="large-2 columns">
+                    <p> White | Green Border</p>
+
+                    <a href="#" class="button square-green-border">Back</a>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <div class="callout">
+                    <p>HTML</p>
+                    <code>
+          &lt;a href="#" class="button bold-rounded-white"&gt;Sign Up / Log In&lt;/a&gt;<br/>
+          &lt;a href="#" class="button rounded-green"&gt;Apply&lt;/a&gt;<br/>
+            &lt;a href="#" class="button normal-rounded-white"&gt;Search&lt;/a&gt; <br/>
+            &lt;a href="#" class="button rounded-green-border"&gt;Find Out More&lt;/a&gt; <br/>
+            &lt;a href="#" class="button green-border"&gt;Sign Up / Log In&lt;/a&gt; <br/>
+            &lt;a href="#" class="button square-green-border"&gt;Back&lt;/a&gt; <br/>
+          </code>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <div class="callout">
+                    <p>HTML</p>
+                    <code>
+                      .rounded-green { <br/>
+                          background-color: #27AE60;<br/>
+                          border-radius: 2em;<br/>
+                          color: white;<br/>
+                          padding: 1em 2em;<br/>
+                          font-weight: bold;<br/>
+                      }<br/>
+<br/>
+                      .bold-rounded-white {<br/>
+                          background-color: white;<br/>
+                          border-radius: 2em;<br/>
+                          color: #27AE60;<br/>
+                          font-weight: bold;<br/>
+                      }<br/>
+<br/>
+                      .normal-rounded-white {<br/>
+                          background-color: white;<br/>
+                          border-radius: 2em;<br/>
+                          color: #27AE60;<br/>
+                      }<br/>
+<br/>
+                      .rounded-green-border {<br/>
+                          border: 2px solid #27AE60;<br/>
+                          border-radius: 2em;<br/>
+                          background: none;<br/>
+                          color: #27AE60;<br/>
+                          text-align: center;<br/>
+                      }<br/>
+<br/>
+                      .green-border {<br/>
+                          border: 2px solid #27AE60;<br/>
+                          background: none;<br/>
+                          color: #27AE60;<br/>
+                          text-align: center;<br/>
+                      }<br/>
+<br/>
+                      .square-green-border {<br/>
+                          border: 2px solid #27AE60;<br/>
+                          background: #ffffff;<br/>
+                          color: #27AE60;<br/>
+                          text-align: center;<br/>
+                      }<br/>
+<br/>
+                      .button:hover {<br/>
+                          background-color: #27ae60;<br/>
+                          color: none;<br/>
+                      }<br/>
+
+          </code>
+                </div>
+            </div>
+            <div class="large-12 columns">
+                <h3> Jumbotron</h3>
+                <p>A jumbotron can be used at the top of a website much like a her section. This can be edited in the HTML and CSS and can contain any text in heading and sub heading form. A button is sometimes found on this component as well to lead the user to certain content.</p>
+                <div class="medium-12 columns header">
+                    <h1 class="header-title">Welcome to Architectural Elite</h1>
+                    <h5 class="header-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+                    <a href="#" class="button learnmore">Learn More</a>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <div class="callout">
+                    <p>HTML</p>
+                    <code>
+                    &lt;h3> Jumbotron (call to action)&lt;/h3 &gt;<br/> &lt;div class="medium-12 columns header"&gt;<br/> &lt;h1 class="header-title">Welcome to Architectural Elite&lt;/h1&gt;<br/> &lt;h5 class="header-subheading">Lorem ipsum dolor sit
+                    amet, consectetur adipiscing elit. &lt;/h5&gt;<br/> &lt;a href="#" class="button learnmore">Learn More&lt;/a&gt;<br/>
+                    </code>
+                </div>
+
+            </div>
+            <div class="large-6 columns">
+                <div class="callout">
+
+                    <p>CSS</p>
+                    <code>
+                    .header { <br/>
+                        background-color: #1d1d1d;<br/>
+                        padding: 5em 4em;<br/>
+                    }<br/>
+                    .header-title {<br/>
+                    color: #fff;<br/>
+                    }<br/>
+                    .header-subheading {<br/>
+                    color: #fff;<br/>
+                    }<br/>
+                    .learnmore {<br/>
+                        border: 2px solid #27AE60;<br/>
+                        border-radius: 2em;<br/>
+                        background: none;<br/>
+                        color: #27AE60;<br/>
+                    }<br/>
+                  </code>
+                </div>
+
+            </div>
+
+            <div class="large-12 columns">
+                <h3>Footer</h3>
+                <p>The footer is found at the bottom of the webpage and usually contains social media links and links to other pages on the website.</p>
+                <footer>
+                    <div class="row">
+                        <div class="small-9 columns footer-copyright">&copy; Copyright Architectural Elite Ltd 2017</div>
+                        <div class="small-3 columns footer-social">
+                            <a class="social-link" href="https://www.facebook.com/architecturalelite/"><i class="fa fa-facebook fa-lg social"></i>
+                        <a class="social-link" href="https://twitter.com/archeliteuae"><i class="fa fa-twitter fa-lg social"></i></a>
+                            <a class="social-link" href="https://www.linkedin.com/in/hayleydyer"><i class="fa fa-linkedin fa-lg social"></i></a>
+                            <a class="social-link" href="https://www.youtube.com/user/ArchitecturalElite"><i class="fa fa-youtube fa-lg social"></i></a>
+
+                        </div>
+
+
+                    </div>
+                </footer>
+
+            </div>
+            <div class="large-6 columns">
+                <div class="callout">
+                    <p>HTML</p>
+                    <code>
+  &lt;footer&gt; <br/>
+      &lt;div class="row"&gt;<br/>
+          &lt;div class="small-9 columns footer-copyright"&gt;&copy; Copyright Architectural Elite Ltd 2017&lt;/div&gt;<br/>
+          &lt;div class="small-3 columns footer-social"&gt;<br/>
+              &lt;a class="social-link" href="https://www.facebook.com/architecturalelite/"&gt;&lt;i class="fa fa-facebook fa-lg social"&gt;&lt;/i&gt;<br/>
+          &lt;a class="social-link" href="https://twitter.com/archeliteuae"&gt;&lt;i class="fa fa-twitter fa-lg social"&gt;&lt;/i&gt;&lt;/a&gt;<br/>
+              &lt;a class="social-link" href="https://www.linkedin.com/in/hayleydyer"&gt;&lt;i class="fa fa-linkedin fa-lg social"&gt;&lt;/i&gt;&lt;/a&gt;<br/>
+              &lt;a class="social-link" href="https://www.youtube.com/user/ArchitecturalElite"&gt;&lt;i class="fa fa-youtube fa-lg social"&gt;&lt;/i&gt;&lt;/a&gt;<br/>
+
+          &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+  &lt;/footer&gt;<br/>
+</code>
+                </div>
+            </div>
+
+            <div class="large-6 columns">
+                <div class="callout">
+                    <p>CSS</p>
+                    <code>
+                      footer {<br/>
+                          background: #27AE60;<br/>
+                          color: #fff;<br/>
+                          padding: 2em;<br/>
+                          margin-bottom: 1em;<br/>
+                      }<br/>
+<br/>
+                      .social {<br/>
+                          padding: 0.5em;<br/>
+                      }<br/>
+<br/>
+                      .social-link {<br/>
+                          color: #fff;<br/>
+                      }<br/>
+<br/>
+                      .social-link:hover {<br/>
+                          opacity: 0.6;<br/>
+                          color: #fff;<br/>
+                          transition: 1.0s ease-in-out;<br/>
+                      }<br/>
+                    </code>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>

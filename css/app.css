@@ -1,0 +1,171 @@
+body {
+    background: #ECECEC;
+    color: #000000;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    font-family: "proxima nova", sans-serif;
+}
+
+h3 {
+  padding:1em 0;
+}
+code {
+    border: 1px solid #cacaca;
+    background-color: #e6e6e6;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-weight: normal;
+    color: #0a0a0a;
+}
+
+.colour-1 {
+    background: #27AE60;
+    padding: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colour-2 {
+    background: #ffffff;
+    padding: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.colour-3 {
+    background: #000000;
+    padding: 2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.top-bar, ul {
+    background-color: #27AE60;
+    color: white;
+}
+
+.top-bar-logo {
+    width: 5em;
+}
+
+nav {
+    margin: 1.4em 1em 0 0;
+    background: none;
+}
+
+nav ul a {
+    background: #27AE60;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "proxima-nova", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+nav ul a:hover {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.signup {
+    background-color: white;
+    border-radius: 2em;
+    color: #27AE60;
+    float: left;
+    font-weight: bold;
+}
+/* JUMBOTRON */
+
+.header {
+    background-color: #1d1d1d;
+    padding: 5em 4em;
+}
+.header-title {
+color: #fff;
+}
+.header-subheading {
+color: #fff;
+}
+.learnmore {
+    border: 2px solid #27AE60;
+    border-radius: 2em;
+    background: none;
+    color: #27AE60;
+}
+
+/* BUTTONS */
+
+.rounded-green {
+    background-color: #27AE60;
+    border-radius: 2em;
+    color: white;
+    padding: 1em 2em;
+    font-weight: bold;
+}
+
+.bold-rounded-white {
+    background-color: white;
+    border-radius: 2em;
+    color: #27AE60;
+    font-weight: bold;
+}
+
+.normal-rounded-white {
+    background-color: white;
+    border-radius: 2em;
+    color: #27AE60;
+}
+
+.rounded-green-border {
+    border: 2px solid #27AE60;
+    border-radius: 2em;
+    background: none;
+    color: #27AE60;
+    text-align: center;
+}
+
+.green-border {
+    border: 2px solid #27AE60;
+    background: none;
+    color: #27AE60;
+    text-align: center;
+}
+
+.square-green-border {
+    border: 2px solid #27AE60;
+    background: #ffffff;
+    color: #27AE60;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #27ae60;
+    color: none;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #27AE60;
+    color: #fff;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+.social {
+    padding: 0.5em;
+}
+
+.social-link {
+    color: #fff;
+}
+
+.social-link:hover {
+    opacity: 0.6;
+    color: #fff;
+    transition: 1.0s ease-in-out;
+}
